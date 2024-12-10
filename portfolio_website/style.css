@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #0077b6;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 182px;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: #023e8a;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background: #0077b6;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 20px;
+    margin: 20px;
+}
+
+.case-study {
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0077b6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: #005f8a;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #023e8a;
+    color: #fff;
+}
